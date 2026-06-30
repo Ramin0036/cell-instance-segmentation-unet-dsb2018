@@ -27,7 +27,7 @@ It contains microscopy images collected from multiple laboratories under differe
 - Various cell types
 - Multiple imaging resolutions
 
-The diversity of imaging modalities and biological samples makes this dataset particularly challenging and suitable for developing robust deep learning segmentation models. :contentReference[oaicite:0]{index=0}
+The diversity of imaging modalities and biological samples makes this dataset particularly challenging and suitable for developing robust deep learning segmentation models.
 
 ---
 
@@ -54,7 +54,7 @@ Each training sample contains:
 - **images/** → Original microscopy image
 - **masks/** → Individual binary mask for each nucleus
 
-Each mask corresponds to **exactly one cell nucleus**, making the dataset suitable for instance segmentation tasks. :contentReference[oaicite:1]{index=1}
+Each mask corresponds to **exactly one cell nucleus**, making the dataset suitable for instance segmentation tasks.
 
 ---
 
@@ -65,8 +65,6 @@ Each mask corresponds to **exactly one cell nucleus**, making the dataset suitab
 - 🧬 Multiple organisms (Human, Mouse, Fly)
 - 📷 Various imaging modalities
 - 🎯 Benchmark dataset for biomedical image segmentation
-
-:contentReference[oaicite:2]{index=2}
 
 ---
 
