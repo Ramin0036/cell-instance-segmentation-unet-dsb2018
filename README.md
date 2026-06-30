@@ -62,8 +62,15 @@ Conv2D(1x1, sigmoid)
 people-clothing-segmentation/
 │
 ├── Data/
-│   ├── images/
-│   └── masks/
+├── stage1_train/
+│   ├── <Image_ID>/
+│   │   ├── images/
+│   │   └── masks/
+│   ├── ...
+│
+├── stage1_test/
+│
+└── stage2_test_final/
 │
 ├── Notebooks/
 │   └── cell-instance-segmentation.ipynb
