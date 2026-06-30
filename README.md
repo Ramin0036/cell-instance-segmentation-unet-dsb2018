@@ -56,6 +56,24 @@ Conv2D(1x1, sigmoid)
 
 ------------------------------------------------------------------------
 
+# 📂 Project Structure
+
+```
+people-clothing-segmentation/
+│
+├── Data/
+│   ├── images/
+│   └── masks/
+│
+├── Notebooks/
+│   └── cell-instance-segmentation.ipynb
+│
+├── Requirements.txt
+└── README.md
+```
+
+------------------------------------------------------------------------
+
 # 🧪 Dataset
 
 Kaggle Data Science Bowl 2018: - Variable image sizes - Different
