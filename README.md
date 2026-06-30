@@ -67,10 +67,8 @@ people-clothing-segmentation/
 │   │   ├── images/
 │   │   └── masks/
 │   ├── ...
-│
-├── stage1_test/
-│
-└── stage2_test_final/
+│   ├── stage1_test/
+│   └── stage2_test_final/
 │
 ├── Notebooks/
 │   └── cell-instance-segmentation.ipynb
