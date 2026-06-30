@@ -102,8 +102,6 @@ Python, TensorFlow, Keras, OpenCV, NumPy, Matplotlib, Scikit-learn
 
 ------------------------------------------------------------------------
 
-------------------------------------------------------------------------
-
 # 👨‍💻 Author :Ramin Allahverdizadeh
 
 U-Net biomedical segmentation project using TensorFlow/Keras
