@@ -8,6 +8,9 @@ The model performs pixel-level binary segmentation to detect and
 separate cell nuclei in microscopy images from the Kaggle Data Science
 Bowl 2018 dataset.
 
+<img width="183" height="214" alt="cell" src="https://github.com/user-attachments/assets/a6fc40ca-4620-4803-9d5d-8a003e7a8845" /> <img width="183" height="214" alt="cell - Copy" src="https://github.com/user-attachments/assets/c0c539d2-a9e0-4966-91bd-1abac29854d3" /> <img width="183" height="214" alt="cell - Copy (2)" src="https://github.com/user-attachments/assets/5ec83b38-c6d8-4445-92c8-adbc98a4bfac" />
+
+
 This project is widely applicable in:
 
 -   Medical Image Analysis
@@ -95,27 +98,9 @@ Python, TensorFlow, Keras, OpenCV, NumPy, Matplotlib, Scikit-learn
 
 # 📊 Metrics
 
--   IoU
--   Dice Coefficient
 -   Binary Cross-Entropy Loss
 
 ------------------------------------------------------------------------
-
-# 🎯 Applications
-
--   Cancer research
--   Microscopy analysis
--   Cell quantification
--   Pathology systems
-
-------------------------------------------------------------------------
-
-# 🚀 Future Improvements
-
--   Attention U-Net
--   ResUNet
--   Transfer learning
--   Focal + Dice loss
 
 ------------------------------------------------------------------------
 
