@@ -1,2 +1,101 @@
-# cell-instance-segmentation-unet-dsb2018
-This project serves as a practical implementation of semantic segmentation in medical imaging and can be extended for research or clinical applications involving cell detection, cancer research, and pathology image analysis.
+# 🧬 Cell Nuclei Segmentation using U-Net (DSB 2018)
+
+A deep learning project for nuclei (cell instance) segmentation using a
+custom U-Net Encoder-Decoder architecture implemented with
+TensorFlow/Keras.
+
+The model performs pixel-level binary segmentation to detect and
+separate cell nuclei in microscopy images from the Kaggle Data Science
+Bowl 2018 dataset.
+
+This project is widely applicable in:
+
+-   Medical Image Analysis
+-   Cancer Research
+-   Pathology Assistance Systems
+-   Biomedical Computer Vision
+-   Cell Detection & Quantification
+
+------------------------------------------------------------------------
+
+# 📌 Project Overview
+
+Cell nuclei segmentation is a fundamental task in biomedical image
+analysis where each pixel is classified as either nucleus or background.
+
+In this project, a U-Net based deep learning model is trained to
+generate high-quality binary segmentation masks for microscopy images
+with varying shapes, densities, and imaging conditions.
+
+## Model Workflow
+
+Input Microscopy Image \| v U-Net Encoder-Decoder Network \| v
+Pixel-wise Binary Prediction \| v Nuclei Segmentation Mask
+
+------------------------------------------------------------------------
+
+# 🏗️ Model Architecture
+
+The model is based on a custom U-Net-style encoder-decoder CNN with skip
+connections for preserving spatial details.
+
+## Encoder
+
+Conv Block (32) -\> Conv Block (64) -\> Conv Block (128) -\> Conv Block
+(256)
+
+Each block: - Conv2D (3x3) - ReLU - MaxPooling
+
+## Decoder
+
+UpConv + Skip Connections -\> Refinement Conv layers
+
+## Output Layer
+
+Conv2D(1x1, sigmoid)
+
+------------------------------------------------------------------------
+
+# 🧪 Dataset
+
+Kaggle Data Science Bowl 2018: - Variable image sizes - Different
+microscopy conditions - Dense/sparse nuclei regions - Pixel-level
+annotations
+
+------------------------------------------------------------------------
+
+# 🛠️ Technologies
+
+Python, TensorFlow, Keras, OpenCV, NumPy, Matplotlib, Scikit-learn
+
+------------------------------------------------------------------------
+
+# 📊 Metrics
+
+-   IoU
+-   Dice Coefficient
+-   Binary Cross-Entropy Loss
+
+------------------------------------------------------------------------
+
+# 🎯 Applications
+
+-   Cancer research
+-   Microscopy analysis
+-   Cell quantification
+-   Pathology systems
+
+------------------------------------------------------------------------
+
+# 🚀 Future Improvements
+
+-   Attention U-Net
+-   ResUNet
+-   Transfer learning
+-   Focal + Dice loss
+
+------------------------------------------------------------------------
+
+# 👨‍💻 Author :Ramin Allahverdizadeh
+
+U-Net biomedical segmentation project using TensorFlow/Keras
